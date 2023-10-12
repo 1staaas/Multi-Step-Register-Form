@@ -1,0 +1,105 @@
+body {
+    background-color: #131926
+}
+
+
+.part1 {
+    display: block;
+}
+
+.part2,
+.part3 {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    height: 400px;
+    width: 550px;
+    background-color: #212837;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid #4C5560;
+}
+
+.boxText {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+input {
+    height: 45px;
+    width: 100%;
+    background-color: #212837;
+    border: 2px solid #4C5560;
+    border-radius: 7px;
+    color: #E4E6EA;
+    padding: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.buttonContainer {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.buttonRegister {
+    height: 70px;
+    width: 200px;
+    background-color: #7140DC;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 30px;  
+}
+
+.buttonRegister:hover,
+.buttonRegister:focus {
+    background-color: #6530d9;
+}
+
+.step {
+    display: flex;
+    justify-content: center;
+    margin-top: -120;
+    color: #4F5669;
+}
+
+.conatinerButtonP2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.buttonsP2 {
+    height: 70px;
+    width: 100%;
+    background-color: #4C5560;
+    border: 0;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.buttonsP2:hover,
+.buttonsP2:focus {
+    background-color: #7140DC;
+}
+
+.alignLast {
+    text-align: center;
+    margin-top: 85px;
+}
